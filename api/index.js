@@ -78,9 +78,8 @@ app.post("/passwordcheck", async (req, res) => {
       });
     }
 
-    return res.json({
-      actionStatus: "SUCCESS",
-      message: "Password is not compromised."
+    return res.status(200).json({
+      actionStatus: "SUCCESS"
     });
   } catch (err) {
     console.error("🔥", err);
