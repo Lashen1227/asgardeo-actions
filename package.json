@@ -1,0 +1,20 @@
+{
+  "name": "password-update-valodator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "validator": "^13.15.15"
+  }
+}
